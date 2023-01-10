@@ -12,7 +12,7 @@ img {
     border-radius: 100px;
 }
 
- h1{
+ h1 {
     /* using linked google fonts, fallback fonts */
     font-family: 'Oswald', sans-serif;
     color: rgb(83, 75, 75);
@@ -31,7 +31,7 @@ a {
 }
 /* selction used when mouse is being hovered on the text  */
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
