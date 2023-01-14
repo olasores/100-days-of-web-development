@@ -11,7 +11,7 @@
 
 ![70DC5F07-159E-4552-B73A-C33F0B4BCA9A](https://user-images.githubusercontent.com/112015383/211456972-c4cbee93-b886-4527-83e9-ea04cc8cd8d5.jpeg)
 
-##### **Food Website:**
+#### **Food Website:**
 
 ##### Keypoint: I learned how to implement responsive web design. 
 ![7B5B0B7E-8553-43BB-B5BC-1607C726CE03](https://user-images.githubusercontent.com/112015383/211456171-da03ea31-0eff-4fab-9055-6ae20267c529.jpeg)
@@ -19,5 +19,5 @@ view website at https://web-food-100daysofcode.netlify.app/ or https://olasores.
 
 
 ### Card Container: 
-### keypont: I learned the use of CSS transformation, transitions and also how to implement svg.
+#### keypont: I learned the use of CSS transformation, transitions and also how to implement svg.
 <img width="798" alt="Screenshot 2023-01-14 at 12 01 07 PM" src="https://user-images.githubusercontent.com/112015383/212494637-01c29edf-3006-4cc2-b652-11296df7891a.png">
