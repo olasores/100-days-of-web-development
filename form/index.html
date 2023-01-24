@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML forms </title>
+    <link rel="stylesheet" href="/form /styles.css">
+</head>
+<body>
+    <h1> Demo form </h1>
+    <form action="/" method="get" novalidate>
+        <section>
+            <ul>
+                <li>
+                    <label for="username"> Your name </label>
+                    <input type="text" name="user-name" id="username" required placeholder="Max Shutz">
+                </li>
+                <li>
+                    <label for="useremail"> Your email adress </label>
+                    <input type="email" name="user-email" id="useremail">
+                </li>
+                <li>
+                    <label for="userage"> Your age</label>
+                    <input type="number" step="1" name="user-age" id="userage" min="18" max="100">
+                </li>
+                <li>
+                    <label for="userpassword"> Password</label>
+                    <input type="password" name="user-password" id="userpassword" required minlength="7" maxlength="20">
+                </li>
+                <li>
+                    <label for="userbirthday"> Your birthday</label>
+                    <input type="date" name="user-birthdau=y"  id="userbirthday"  required min="1921-01-01" max="2003-01-01">
+                </li> 
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <li>
+                    <!-- <hr> adds a horizontal line  -->
+                    <hr>
+                    <!-- we need an id to connect to the for that is added with the label -->
+                    <!-- select element is used to make a dropdown menu -->
+                    <!-- option element control the tezxt that will be shown in the dropdown -->
+                    <label for="favorite-color"> What is your favorite color?</label>
+                    <select name="favorite-color" id="favorite-color">
+                        <option value="">Blue</option>
+                        <option value="">Black</option>
+                        <option value="">Red</option>
+                    </select>
+                    <label for="usermessage"> Your message</label>
+                    <textarea name="" id="usermessage" cols="10" rows="5"></textarea>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <li>
+                     
+                    <h2> How should we verify your account </h2>
+                    <!-- used when you have to confirm something  -->
+                    <!-- name can be used to group multiple things together  -->
+                    <!-- value allows us to set a default value for that input -->
+                    <div class="form-control-inline">
+                        <input type="radio" name="verify" id="verify-text-message" value="text-message">
+                        <label for="verify-text-message"> Via text message</label>
+                    </div>
+                    <div class="form-control-inline">
+                        <input type="radio" name="verify" id="verify-phone" value="phone">
+                        <label for="verify-phone"> Via a phone call</label>
+                    </div>
+                    <div class="form-control-inline">
+                        <input type="radio" name="verify" id="verify-email" value="email">
+                        <label for="verify-email"> Via Email</label>
+                    </div>
+                    <div class="form-control-inline">
+                        <input type="checkbox" name="contact" id="contact-email" value="email">
+                        <label for="contact-email">contact me via email </label>
+                    </div>
+                    <div class="form-control-inline">
+                        <input type="checkbox" name="contact" id="contact-phone" value="phone">
+                        <label for="contact-phone">contact me via phone </label>
+                    </div>
+                </li>
+            </ul>
+        </section>
+            <button type="submit">Submit</button>
+        </section>
+    </form>
+</body>
+</html>
